@@ -10,7 +10,7 @@
 </head>
 <body>
     <h1>Enter Customer Details</h1>
-    <form method="POST", action="views.py">
+    <form method="POST", action="">
         {% csrf_token %}
         {{ form.as_p }}
         <input type="submit" name="submit">
