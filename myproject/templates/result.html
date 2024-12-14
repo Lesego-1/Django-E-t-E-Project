@@ -5,15 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Form</title>
+    <title>Result</title>
     <link rel="stylesheet" href="{% static 'index_style.css' %}">
 </head>
 <body>
-    <h1>Enter Customer Details</h1>
-    <form method="POST", action="views.py">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" name="submit">
-    </form>
+    <h1>Classification Result</h1>
+    <p>The customer will subscribe: {{result}}</p>
 </body>
 </html>
