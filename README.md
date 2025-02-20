@@ -77,5 +77,5 @@ Citation Request:
 
 ## Results
 
-- Cleaned data and created separate files for dashboard analysis. **(Link to Dashboard)**
-- RandomForestsClassifier model obtained **80% precision** for the positive classifications and a **77% overall accuracy**.
+- Cleaned data and created separate files for dashboard analysis. **[Link to Dashboard](https://public.tableau.com/app/profile/lesego.dhlamini/viz/DjangoBankProjectDashboard/Dashboard1?publish=yesf)**
+- RandomForestsClassifier model obtained **82% precision** for the positive classifications and a **80% overall accuracy**.
