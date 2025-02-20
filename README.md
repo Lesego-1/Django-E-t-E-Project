@@ -3,7 +3,7 @@
 ## Overview
 This project uses a banking dataset that contains information about bank clients and thier interactions with the marketing campaigns. The front end is used to input details about a customer and the model predicts if the client will subscribe to a term deposit or not based on the input data. This provides valuable insights on customer behavior and helps understand the clients who are more likley to subscribe which can help optimize marketing campaigns by using targeted marketing and result in cost reduction.
 
-# Dataset
+## Dataset
 Citation Request:
   This dataset is public available for research. The details are described in [Moro et al., 2011]. 
   Please include this citation if you plan to use this database:
@@ -74,3 +74,8 @@ Citation Request:
     17 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
 8. Missing Attribute Values: None
+
+## Results
+
+- Cleaned data and created separate files for dashboard analysis. **(Link to Dashboard)**
+- RandomForestsClassifier model obtained **80% precision** for the positive classifications and a **77% overall accuracy**.
